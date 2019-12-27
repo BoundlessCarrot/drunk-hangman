@@ -30,7 +30,7 @@ def hangman(word, ruleset):
 		#this one specifically doesn't work, idk why
 		if guessedletter in incorrectGuesses:
 			print("You already guessed that letter!")
-			guessedletter = input("\nGuess a letter: ").casefold()
+			guessedletter = input("Guess a letter: ").casefold()
 			
 		if guessedletter.isalpha() == False:
 			print("That's not even a letter! You're either really fucked at the moment or just dumb.")
@@ -46,10 +46,10 @@ def hangman(word, ruleset):
 				except IndexError:
 					continue
 			
-			print("Good guess!")
+			print("Good guess! Whoever put up the word, take {} sips!\n".format(len(indices)))
 		
 		elif guessedletter not in word:
-			print("Sorry, that's incorrect! Take a sip.")
+			print("Sorry, that's incorrect! Take a sip.\n")
 			incorrectGuesses += guessedletter.upper()
 			n += 1
 		
