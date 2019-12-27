@@ -21,7 +21,7 @@ def hangman(word, ruleset):
 		
 		print()
 		
-		print((', ').join(incorrectGuesses) + '     ({}/10) [incorrect] guesses used'.format(n))
+		print((', ').join(incorrectGuesses) + '     ({}/10) [incorrect] guesses used\n'.format(n))
 		
 		guessedletter = input("Guess a letter: ").casefold()
 		
@@ -30,7 +30,7 @@ def hangman(word, ruleset):
 		#this one specifically doesn't work, idk why
 		if guessedletter in incorrectGuesses:
 			print("You already guessed that letter!")
-			guessedletter = input("Guess a letter: ").casefold()
+			guessedletter = input("\nGuess a letter: ").casefold()
 			
 		if guessedletter.isalpha() == False:
 			print("That's not even a letter! You're either really fucked at the moment or just dumb.")
@@ -46,10 +46,10 @@ def hangman(word, ruleset):
 				except IndexError:
 					continue
 			
-			print("Good guess!\n")
+			print("Good guess!")
 		
 		elif guessedletter not in word:
-			print("\nSorry, that's incorrect! Take a sip.")
+			print("Sorry, that's incorrect! Take a sip.")
 			incorrectGuesses += guessedletter.upper()
 			n += 1
 		
@@ -85,6 +85,7 @@ if __name__ == '__main__':
 	#game initialization
 	guessedWord = input("Input a word to be guessed: ").casefold()
 	os.system('clear')
+	print()
 	hangman(guessedWord, ruleset)
 	
 	playAgain = input("Do you want to play again? (y/n): ").casefold()
@@ -92,6 +93,7 @@ if __name__ == '__main__':
 	while(playAgain == 'y'):
 		guessedWord = input("Input a word to be guessed: ").casefold()
 		os.system('clear')
+		print()
 		hangman(guessedWord, ruleset)
 		playAgain = input("Do you want to play again? (y/n): ").casefold()
 	
