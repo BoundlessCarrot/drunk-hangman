@@ -49,7 +49,7 @@ def hangman(word, ruleset):
 			print("Good guess!\n")
 		
 		elif guessedletter not in word:
-			print("\nSorry, that's incorrect!")
+			print("\nSorry, that's incorrect! Take a sip.")
 			incorrectGuesses += guessedletter.upper()
 			n += 1
 		
@@ -68,7 +68,7 @@ def hangman(word, ruleset):
 				print("Congrats! You guessed the word with {} guesses left over. Whoever put the word up has to take {} sips!".format(guessesleft, guessesleft))
 				return
 		elif n == 10:
-			print("Womp womp, you're out of guesses! The word was {}".format(word.upper()))
+			print("Womp womp, you're out of guesses! The word was {}. Everyone guessing, DRINK!".format(word.upper()))
 			return
 
 if __name__ == '__main__':
