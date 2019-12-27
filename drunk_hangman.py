@@ -29,7 +29,7 @@ def hangman(word, ruleset):
 		
 		#this one specifically doesn't work, idk why
 		if guessedletter in incorrectGuesses:
-			print("You already guessed that letter!")
+			print("You already guessed that letter!\n")
 			guessedletter = input("Guess a letter: ").casefold()
 			
 		if guessedletter.isalpha() == False:
