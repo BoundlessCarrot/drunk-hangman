@@ -9,4 +9,4 @@ Normal hangman with some special rules added on to the end ->
   5. The hangman consists of the stand (3 lines), the rope (1 line), and the body (6 marks; head, torso, arms, and legs) 
   6. If the guessers guess the word before the hangman is complete, the host must take a number of sips equal to either the number of spaces or guesses left (the game supports both)
   7. If the guessers fail to guess their word they must all finish their drinks
-	(Optional). If a guesser guesses the entire word incorrectly, they must finish their drink, and it takes up a guess within the hangman
+  8. (Optional). If a guesser guesses the entire word incorrectly, they must finish their drink, and it takes up a guess within the hangman
