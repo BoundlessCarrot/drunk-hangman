@@ -1,0 +1,11 @@
+/Users/jordanstreete/projects/Hangman/hangman/target/rls/debug/deps/console-cc19132b0f47d97c.rmeta: /Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.0/src/lib.rs /Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.0/src/common_term.rs /Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.0/src/kb.rs /Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.0/src/term.rs /Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.0/src/unix_term.rs /Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.0/src/utils.rs /Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.0/src/ansi.rs
+
+/Users/jordanstreete/projects/Hangman/hangman/target/rls/debug/deps/console-cc19132b0f47d97c.d: /Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.0/src/lib.rs /Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.0/src/common_term.rs /Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.0/src/kb.rs /Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.0/src/term.rs /Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.0/src/unix_term.rs /Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.0/src/utils.rs /Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.0/src/ansi.rs
+
+/Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.0/src/lib.rs:
+/Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.0/src/common_term.rs:
+/Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.0/src/kb.rs:
+/Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.0/src/term.rs:
+/Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.0/src/unix_term.rs:
+/Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.0/src/utils.rs:
+/Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.0/src/ansi.rs:

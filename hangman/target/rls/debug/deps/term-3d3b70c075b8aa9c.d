@@ -1,0 +1,10 @@
+/Users/jordanstreete/projects/Hangman/hangman/target/rls/debug/deps/term-3d3b70c075b8aa9c.rmeta: /Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/term-0.7.0/src/lib.rs /Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/term-0.7.0/src/terminfo/mod.rs /Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/term-0.7.0/src/terminfo/searcher.rs /Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/term-0.7.0/src/terminfo/parser/compiled.rs /Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/term-0.7.0/src/terminfo/parser/names.rs /Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/term-0.7.0/src/terminfo/parm.rs
+
+/Users/jordanstreete/projects/Hangman/hangman/target/rls/debug/deps/term-3d3b70c075b8aa9c.d: /Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/term-0.7.0/src/lib.rs /Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/term-0.7.0/src/terminfo/mod.rs /Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/term-0.7.0/src/terminfo/searcher.rs /Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/term-0.7.0/src/terminfo/parser/compiled.rs /Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/term-0.7.0/src/terminfo/parser/names.rs /Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/term-0.7.0/src/terminfo/parm.rs
+
+/Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/term-0.7.0/src/lib.rs:
+/Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/term-0.7.0/src/terminfo/mod.rs:
+/Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/term-0.7.0/src/terminfo/searcher.rs:
+/Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/term-0.7.0/src/terminfo/parser/compiled.rs:
+/Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/term-0.7.0/src/terminfo/parser/names.rs:
+/Users/jordanstreete/.cargo/registry/src/github.com-1ecc6299db9ec823/term-0.7.0/src/terminfo/parm.rs:
