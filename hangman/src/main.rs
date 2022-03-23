@@ -1,8 +1,6 @@
 #[allow(unused_imports)]
 use std::collections::{HashMap, HashSet};
 use std::io::*;
-// use std::vec;
-// use std::Tuple;
 
 fn give_word_info(word: &String) -> (HashMap<char, usize>, Vec<(char, usize)>) {
     let mut letter_counts = HashMap::new();
@@ -10,7 +8,7 @@ fn give_word_info(word: &String) -> (HashMap<char, usize>, Vec<(char, usize)>) {
 
     for (i, letter) in word.chars().enumerate() {
         if letter != '\n' {
-            letter_counts.insert(letter.to_owned(), word.matches(letter).count());
+            letter_counts.insert(letter.to_owned() as char, word.matches(letter).count());
             letter_positions.push((letter, i))
         }
     }
@@ -33,20 +31,28 @@ fn main() {
     let mut counter: i32 = 0;
 
     while counter < 10 {
-        println!("Turn {} - Guess a letter!", counter);
-        for letter in game_string.iter() {
-            print!("{} ", letter.to_string());
-        }
-        print!("\n");
 
-        println!("Incorrect Guesses: ");
-        for g in incorrect_guesses.iter() {
+        println!("Guess a letter!");
+
+        print!("Incorrect Guesses: ");
+        for &g in &incorrect_guesses {
             print!("{} ", g.to_string());
         }
 
+        print!("\n");
+
+        for letter in game_string.iter() {
+            print!("{} ", letter.to_string());
+        }
+
+        print!("\n");
+
         stdin().read_line(&mut buf).ok().expect("Error reading line").to_string();
 
-        guess = buf.chars().nth(0).unwrap();
+        // guess = buf.chars().nth(0).unwrap();
+        guess = buf.remove(0);
+
+        println!("{}, {:?}", map.contains_key(&guess), map);
 
         if map.contains_key(&guess) {
             let num_insertions = *map.get(&guess).unwrap() as i32;
@@ -76,5 +82,4 @@ fn main() {
             break;
         }
     }
-    return;
 }
